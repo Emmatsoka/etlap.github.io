@@ -47,8 +47,8 @@ body{
 }
 #nav ul li {
     text-decoration: none;
-    padding-left:17vh;
-    padding-right: 17vh;
+    padding-left:16vh;
+    padding-right: 16vh;
     display: block;
     text-align: center;
 
@@ -86,18 +86,38 @@ body{
             box-shadow: none;
         }
     }
-    @media only screen and (max-width: 1300px){
+    @media only screen and (max-width: 1560px){
         #nav ul li {
             text-decoration: none;
             padding-left:14vh;
             padding-right: 14vh;
             display: block;
             text-align: center;
-        
+        }
         
         }
-    }
-    @media only screen and (max-width: 800px){
+        @media only screen and (max-width: 1410px){
+            #nav ul li {
+                text-decoration: none;
+                padding-left:12vh;
+                padding-right: 12vh;
+                display: block;
+                text-align: center;
+            }
+            
+            }
+            @media only screen and (max-width: 1310px){
+                #nav ul li {
+                    text-decoration: none;
+                    padding-left:8vh;
+                    padding-right: 8vh;
+                    display: block;
+                    text-align: center;
+                }
+                
+                }
+
+    @media only screen and (max-width: 850px){
         #nav ul li {
             text-decoration: none;
             padding-left:7vh;
@@ -108,7 +128,7 @@ body{
         
         }
     }
-    @media only screen and (max-width: 640px){
+    @media only screen and (max-width: 650px){
         #nav ul li {
             text-decoration: none;
             padding-left:5vh;
@@ -119,7 +139,7 @@ body{
         
         }
     }
-    @media only screen and (max-width: 625px){
+    @media only screen and (max-width: 635px){
         #nav ul li {
             text-decoration: none;
             padding-left:3vh;
